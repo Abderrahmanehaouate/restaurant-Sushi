@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TatsuYa - The best food in the world</title>
+    <link rel="stylesheet" href="/Css/style.css" />
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--header--->
+    <header>
+      <a href="#" class="logo"
+        ><img
+          src="/image/logosushi-PhotoRoom.png"
+          width="70px"
+          height="auto"
+          alt="This is Logo "
+      /></a>
+      <div class="bx bx-menu" id="menu-icon"></div>
+
+      <ul class="navbar">
+        <li><a href="accueil.html">Accueil</a></li>
+        <li><a href="carte.html">Carte</a></li>
+        <li><a href="a propos.html">A propos</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </header>
+    <!--Home section--->
+    <section class="home" id="home">
+      <div class="accueil">
+        <h1>TatsuYa</h1>
+        <h3>The best food in the world</h3>
+        <p>
+          A good restaurant is like a vacation; it transports you,<br />
+          and it becomes a lot more than just about the food.
+        </p>
+        <a href="accueil.html" class="btn-accueil">Menu</a>
+      </div>
+    </section>
+    <!-- container -->
+      <div class="title">
+        <h2>Menu</h2>
+      </div>
+    <div class="div-select">
+      <!-- <div class="title">
+        <h2>Menu</h2>
+      </div> -->
+      <select name="" id="select-menu">
+        <option class="all" value="package">All</option>
+        <option class="sushi" value="sushi">Sushi</option>
+        <option class="ramen" value="ramen">Ramen</option>
+        <option class="sandwish" value="sandwish">Sandwish</option>
+      </select>
+        <img
+          src="/image/shopping-card.png"
+          id="cart-icon"
+          alt=""
+          class="select-img"
+        />
+    </div>
+            <!-- cart -->
+            <div class="cart">
+              <h2 class="carte-title">Your Carte</h2>
+              <!-- content -->
+              <div class="cart-content">
+                <!-- <div class="cart-box">
+                  <img src="/image/ramen/img1 1 (1).png" alt="" class="cart-img" />
+                  <div class="detail-box">
+                    <div class="cart-product-title">Ramen mixte</div>
+                    <div class="cart-price">99$</div>
+                    <input type="number" value="1" class="cart-quantity">
+                  </div>
+                </div> -->
+              </div>
+              <!-- Totla -->
+              <div class="total">
+                <div class="total-title">Total</div>
+                <div class="total-price">0$</div>
+              </div>
+              <!-- Buy Buttom -->
+              <button type="button" class="btn-buy" onclick="alretM()";>Buy Now</button>
+              <!-- cart close -->
+              <i class="bx bx-x" id="close-cart"></i>
+            </div>
+          </div>
+
+    <section class="package ramen" id="package">
+      <!-- section 1 -->
+      <div class="package-content sushi">
+        <div class="box">
+          <div class="thum">
+            <img src="image/ramen/img1 1 (1).png" class="p-img" />
+          </div>
+
+          <div class="dest-content">
+            <div class="location">
+              <h3 class="product-title">Ramen Extra</h3>
+              <p>
+                detail about food was creating by riz , salamon calamr <br />
+                et more thing you should don’t know it
+              </p>
+              <div class="shop">
+                <div class="prix">
+                  <p><span class="price">99</span>$</p>
+                </div>
+                <div class="add-cart icon-shop">
+                  <box-icon name="shopping-bag" animation="tada"></box-icon>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="thum">
+            <img src="image/ramen/img1 1 (2).png" class="p-img" />
+          </div>
+
+          <div class="dest-content">
+            <div class="location">
+              <h3 class="product-title">Ramen normal</h3>
+              <p>
+                detail about food was creating by riz , salamon calamr <br />
+                et more thing you should don’t know it
+              </p>
+
+              <div class="shop">
+                <div class="prix">
+                  <p><span class="price">99</span>$</p>
+                </div>
+                <div class="add-cart add-cart icon-shop">
+                  <box-icon name="shopping-bag" animation="tada"></box-icon>
+                </div>
+              </div>
+            </div>
+            <div class="stars"></div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="thum">
+            <img src="image/ramen/img1 1 (3).png" class="p-img" />
+          </div>
+          <div class="dest-content">
+            <div class="location">
+              <h3 class="product-title">Ramen Eggs</h3>
+              <p>
+                detail about food was creating by riz , salamon calamr <br />
+                et more thing you should don’t know it
+              </p>
+              <div class="shop">
+                <div class="prix">
+                  <p><span class="price">99</span>$</p>
+                </div>
+                <div class="add-cart icon-shop">
+                  <box-icon name="shopping-bag" animation="tada"></box-icon>
+                </div>
+              </div>
+            </div>
+            <div class="stars"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section2 -->
+    <section class="package ramen" id="package">
+      <div class="package-content">
+        <div class="box">
+          <div class="thum">
+            <img src="/image/ramen/img2 1 (1).png" class="p-img" />
+          </div>
+
+          <div class="dest-content">
+            <div class="location">
+              <h3 class="product-title">Ramen ochef</h3>
+              <p>
+                detail about food was creating by riz , salamon calamr <br />
+                et more thing you should don’t know it
+              </p>
+              <div class="shop">
+                <div class="prix">
+                  <p><span class="price">99</span>$</p>
+                </div>
+                <div class="add-cart icon-shop">
+                  <box-icon name="shopping-bag" animation="tada"></box-icon>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="thum">
+            <img src="image/ramen/img2 1 (2).png" class="p-img" />
+          </div>
+
+          <div class="dest-content">
+            <div class="location">
+              <h3 class="product-title">ramen ramineo</h3>
+              <p>
+                detail about food was creating by riz , salamon calamr <br />
+                et more thing you should don’t know it
+              </p>
+
+              <div class="shop">
+                <div class="prix">
+                  <p><span class="price">99</span>$</p>
+                </div>
+                <div class="add-cart icon-shop">
+                  <box-icon name="shopping-bag" animation="tada"></box-icon>
+                </div>
+              </div>
+            </div>
+            <div class="stars"></div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="thum">
+            <img src="image/ramen/img2 1 (3).png" class="p-img" />
+          </div>
+          <div class="dest-content">
+            <div class="location">
+              <h3 class="product-title">Ramen TatsuYa</h3>
+              <p>
+                detail about food was creating by riz , salamon calamr <br />
+                et more thing you should don’t know it
+              </p>
+              <div class="shop">
+                <div class="prix">
+                  <p><span class="price">99</span>$</p>
+                </div>
+                <div class="add-cart icon-shop">
+                  <box-icon name="shopping-bag" animation="tada"></box-icon>
+                </div>
+              </div>
+            </div>
+            <div class="stars"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- --------section3----------- -->
+    <section class="package ramen" id="package">
+      <div class="package-content oben">
+        <div class="box">
+          <div class="thum">
+            <img src="image/ramen/img3 1 (1).png" class="p-img" />
+          </div>
+
+          <div class="dest-content">
+            <div class="location">
+              <h3 class="product-title">Ramen kunoha</h3>
+              <p>
+                detail about food was creating by riz , salamon calamr <br />
+                et more thing you should don’t know it
+              </p>
+              <div class="shop">
+                <div class="prix">
+                  <p><span class="price">99</span>$</p>
+                </div>
+                <div class="add-cart icon-shop">
+                  <box-icon name="shopping-bag" animation="tada"></box-icon>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="thum">
+            <img src="image/ramen/img3 1 (2).png" class="p-img" />
+          </div>
+
+          <div class="dest-content">
+            <div class="location">
+              <h3 class="product-title">ramen calamr</h3>
+              <p>
+                detail about food was creating by riz , salamon calamr <br />
+                et more thing you should don’t know it
+              </p>
+
+              <div class="shop">
+                <div class="prix">
+                  <p><span class="price">99</span>$</p>
+                </div>
+                <div class="add-cart icon-shop">
+                  <box-icon name="shopping-bag" animation="tada"></box-icon>
+                </div>
+              </div>
+            </div>
+            <div class="stars"></div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="thum">
+            <img src="image/ramen/img3 1 (3).png" class="p-img" />
+          </div>
+          <div class="dest-content">
+            <div class="location">
+              <h3 class="product-title">Ramen mixte</h3>
+              <p>
+                detail about food was creating by riz , salamon calamr <br />
+                et more thing you should don’t know it
+              </p>
+              <div class="shop">
+                <div class="prix">
+                  <p><span class="price">99</span>$</p>
+                </div>
+                <div class="add-cart icon-shop">
+                  <box-icon name="shopping-bag" animation="tada"></box-icon>
+                </div>
+              </div>
+            </div>
+            <div class="stars"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section -->
+    <section class="package sushi" id="package">
+      <div class="package-content">
+        <div class="box">
+          <div class="thum">
+            <img src="image/sushi/img1 1 (1).png" class="p-img" />
+          </div>
+
+          <div class="dest-content">
+            <div class="location">
+              <h3 class="product-title">Sushi Extra</h3>
+              <p>
+                detail about food was creating by riz , salamon calamr <br />
+                et more thing you should don’t know it
+              </p>
+              <div class="shop">
+                <div class="prix">
+                  <p><span class="price">99</span>$</p>
+                </div>
+                <div class="add-cart icon-shop">
+                  <box-icon name="shopping-bag" animation="tada"></box-icon>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="thum">
+            <img src="image/sushi/img1 1 (2).png" class="p-img" />
+          </div>
+
+          <div class="dest-content">
+            <div class="location">
+              <h3 class="product-title">Sushi calamr</h3>
+              <p>
+                detail about food was creating by riz , salamon calamr <br />
+                et more thing you should don’t know it
+              </p>
+
+              <div class="shop">
+                <div class="prix">
+                  <p><span class="price">99</span>$</p>
+                </div>
+                <div class="add-cart icon-shop">
+                  <box-icon name="shopping-bag" animation="tada"></box-icon>
+                </div>
+              </div>
+            </div>
+            <div class="stars"></div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="thum">
+            <img src="image/sushi/img1 1.png" class="p-img" />
+          </div>
+          <div class="dest-content">
+            <div class="location">
+              <h3 class="product-title">Sushi mixte</h3>
+              <p>
+                detail about food was creating by riz , salamon calamr <br />
+                et more thing you should don’t know it
+              </p>
+              <div class="shop">
+                <div class="prix">
+                  <p><span class="price">99</span>$</p>
+                </div>
+                <div class="add-cart icon-shop">
+                  <box-icon name="shopping-bag" animation="tada"></box-icon>
+                </div>
+              </div>
+            </div>
+            <div class="stars"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ----------section4------------>
+    <section class="package sushi" id="package">
+      <div class="package-content plat">
+        <div class="box">
+          <div class="thum">
+            <img src="image/sushi/img2 1 (1).png" class="p-img" />
+          </div>
+
+          <div class="dest-content">
+            <div class="location">
+              <h3 class="product-title">Sushi TatsuYa</h3>
+              <p>
+                detail about food was creating by riz , salamon calamr <br />
+                et more thing you should don’t know it
+              </p>
+              <div class="shop">
+                <div class="prix">
+                  <p><span class="price">99</span>$</p>
+                </div>
+                <div class="add-cart icon-shop">
+                  <box-icon name="shopping-bag" animation="tada"></box-icon>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="thum">
+            <img src="image/sushi/img2 1.png" class="p-img" />
+          </div>
+
+          <div class="dest-content">
+            <div class="location">
+              <h3 class="product-title">Sushi fish</h3>
+              <p>
+                detail about food was creating by riz , salamon calamr <br />
+                et more thing you should don’t know it
+              </p>
+              <div class="shop">
+                <div class="prix">
+                  <p><span class="price">99</span>$</p>
+                </div>
+                <div class="add-cart icon-shop">
+                  <box-icon name="shopping-bag" animation="tada"></box-icon>
+                </div>
+              </div>
+            </div>
+            <div class="stars"></div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="thum">
+            <img src="image/sushi/img3 1 (1).png" class="p-img" />
+          </div>
+          <div class="dest-content">
+            <div class="location">
+              <h3 class="product-title">Sushi delicous</h3>
+              <p>
+                detail about food was creating by riz , salamon calamr <br />
+                et more thing you should don’t know it
+              </p>
+              <div class="shop">
+                <div class="prix">
+                  <p><span class="price">99</span>$</p>
+                </div>
+                <div class="add-cart icon-shop">
+                  <box-icon name="shopping-bag" animation="tada"></box-icon>
+                </div>
+              </div>
+            </div>
+            <div class="stars"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ----------section5------------>
+    <section class="package sushi" id="package">
+      <div class="package-content">
+        <div class="box">
+          <div class="thum">
+            <img src="image/sushi/img3 1 (2).png" class="p-img" />
+          </div>
+
+          <div class="dest-content">
+            <div class="location">
+              <h3 class="product-title">Sushi viande</h3>
+              <p>
+                detail about food was creating by riz , salamon calamr <br />
+                et more thing you should don’t know it
+              </p>
+              <div class="shop">
+                <div class="prix">
+                  <p><span class="price">99</span>$</p>
+                </div>
+                <div class="add-cart icon-shop">
+                  <box-icon name="shopping-bag" animation="tada"></box-icon>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="thum">
+            <img src="image/sushi/img3 1.png" class="p-img" />
+          </div>
+
+          <div class="dest-content">
+            <div class="location">
+              <h3 class="product-title">Sushi sass</h3>
+              <p>
+                detail about food was creating by riz , salamon calamr <br />
+                et more thing you should don’t know it
+              </p>
+              <div class="shop">
+                <div class="prix">
+                  <p><span class="price">99</span>$</p>
+                </div>
+                <div class="add-cart icon-shop">
+                  <box-icon name="shopping-bag" animation="tada"></box-icon>
+                </div>
+              </div>
+            </div>
+            <div class="stars"></div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="thum">
+            <img src="image/img3 1.png" class="p-img" />
+          </div>
+          <div class="dest-content">
+            <div class="location">
+              <h3 class="product-title">Sushi fraise</h3>
+              <p>
+                detail about food was creating by riz , salamon calamr <br />
+                et more thing you should don’t know it
+              </p>
+              <div class="shop">
+                <div class="prix">
+                  <p><span class="price">99</span>$</p>
+                </div>
+                <div class="add-cart icon-shop">
+                  <box-icon name="shopping-bag" animation="tada"></box-icon>
+                </div>
+              </div>
+            </div>
+            <div class="stars"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ----------section6------------>
+    <section class="package sandwish" id="package">
+      <div class="package-content">
+        <div class="box">
+          <div class="thum">
+            <img src="image/sandwish/img1.png" class="p-img" />
+          </div>
+
+          <div class="dest-content">
+            <div class="location">
+              <h3 class="product-title">Sandwish Extra</h3>
+              <p>
+                detail about food was creating by riz , salamon calamr <br />
+                et more thing you should don’t know it
+              </p>
+              <div class="shop">
+                <div class="prix">
+                  <p><span class="price">99</span>$</p>
+                </div>
+                <div class="add-cart icon-shop">
+                  <box-icon name="shopping-bag" animation="tada"></box-icon>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="thum">
+            <img src="image/sandwish/img2.png" class="p-img" />
+          </div>
+
+          <div class="dest-content">
+            <div class="location">
+              <h3 class="product-title">Sandwish simple</h3>
+              <p>
+                detail about food was creating by riz , salamon calamr <br />
+                et more thing you should don’t know it
+              </p>
+              <div class="shop">
+                <div class="prix">
+                  <p><span class="price">99</span>$</p>
+                </div>
+                <div class="add-cart icon-shop">
+                  <box-icon name="shopping-bag" animation="tada"></box-icon>
+                </div>
+              </div>
+            </div>
+            <div class="stars"></div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="thum">
+            <img src="image/sandwish/img3.png" class="p-img" />
+          </div>
+          <div class="dest-content">
+            <div class="location">
+              <h3 class="product-title">Sandwish poulet</h3>
+              <p>
+                detail about food was creating by riz , salamon calamr <br />
+                et more thing you should don’t know it
+              </p>
+              <div class="shop">
+                <div class="prix">
+                  <p><span class="price">99</span>$</p>
+                </div>
+                <div class="add-cart icon-shop">
+                  <box-icon name="shopping-bag" animation="tada"></box-icon>
+                </div>
+              </div>
+            </div>
+            <div class="stars"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ----------section7------------>
+    <section class="package sandwish" id="package">
+      <div class="package-content">
+        <div class="box">
+          <div class="thum">
+            <img src="image/sandwish/img4.png" class="p-img" />
+          </div>
+
+          <div class="dest-content">
+            <div class="location">
+              <h3 class="product-title">Sandwish Extra</h3>
+              <p>
+                detail about food was creating by riz , salamon calamr <br />
+                et more thing you should don’t know it
+              </p>
+              <div class="shop">
+                <div class="prix">
+                  <p><span class="price">99</span>$</p>
+                </div>
+                <div class="add-cart icon-shop">
+                  <box-icon name="shopping-bag" animation="tada"></box-icon>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="thum">
+            <img src="image/sandwish/img5.png" class="p-img" />
+          </div>
+
+          <div class="dest-content">
+            <div class="location">
+              <h3 class="product-title">Sandwish Berger</h3>
+              <p>
+                detail about food was creating by riz , salamon calamr <br />
+                et more thing you should don’t know it
+              </p>
+              <div class="shop">
+                <div class="prix">
+                  <p><span class="price">99</span>$</p>
+                </div>
+                <div class="add-cart icon-shop">
+                  <box-icon name="shopping-bag" animation="tada"></box-icon>
+                </div>
+              </div>
+            </div>
+            <div class="stars"></div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="thum">
+            <img src="image/sandwish/img6.png" class="p-img" />
+          </div>
+          <div class="dest-content">
+            <div class="location">
+              <h3 class="product-title">Sandwish mixte</h3>
+              <p>
+                detail about food was creating by riz , salamon calamr <br />
+                et more thing you should don’t know it
+              </p>
+              <div class="shop">
+                <div class="prix">
+                  <p><span class="price">99</span>$</p>
+                </div>
+                <div class="add-cart icon-shop">
+                  <box-icon name="shopping-bag" animation="tada"></box-icon>
+                </div>
+              </div>
+            </div>
+            <div class="stars"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--footer-->
+    <section id="footer">
+      <div class="footer-down">
+        <div class="footer-down-down">
+          <div class="list">
+            <h4>Menu Links</h4>
+            <ul>
+              <li><a href="#">Accueil</a></li>
+              <li><a href="#">Carte</a></li>
+              <li><a href="#">A propos</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="list">
+            <h4>Contact Info</h4>
+            <ul>
+              <li><a href="#">Safi , 9 RUE 06 Hilal</a></li>
+              <li><a href="#">Morroco NY 10016</a></li>
+              <li><a href="#">0694-7855-74</a></li>
+              <li><a href="#">info@TatsuYa.com</a></li>
+              <li><a href="#">0694-7855-74</a></li>
+            </ul>
+          </div>
+          <div class="list">
+            <h4>Connect</h4>
+            <div class="social">
+              <a href="#"><i class="bx bxl-facebook"></i></a>
+              <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+              <a href="#"><i class="bx bxl-twitter"></i></a>
+              <a href="#"><i class="bx bxl-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright ©2022 All rights reserved | TatsuYa</p>
+      </div>
+    </section>
+    <!-- link to js  -->
+    <script src="/Js/site.js"></script>
+    <script src="/Js/index.js"></script>
+    <script src="/Js/navbar.js"></script>
+  </body>
+</html>
